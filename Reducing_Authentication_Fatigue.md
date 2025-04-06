@@ -6,15 +6,15 @@ April 2025
 
 ## **Introduction**
 
-In today's digital landscape, security professionals face a constant challenge: how to implement robust authentication systems without creating friction that drives users to circumvent them. The friction plays out every day and is often seen with users who have access to an organization's most sensitive operations. 
+In today's digital landscape, security professionals face a constant challenge: how to implement robust authentication systems without creating friction that drives users to circumvent them. The friction plays out daily and is often seen with users who access an organization's most sensitive operations. 
 
 **The Authentication Fatigue Problem**
 
-Authentication fatigue occurs when users are forced to repeatedly verify their identity throughout their workday. Research shows that the average employee must navigate through 27 authentication requests daily, leading to decreased productivity and increased frustration. When authentication barriers interrupt workflow too frequently, users develop workarounds that ultimately compromise the security these systems aim to protect.
+Authentication fatigue occurs when users are forced to repeatedly verify their identity throughout their workday. Research that shows how many times a day the average employee needs to navigate was not found. However, the general consensus found in researching this article supports the idea that it can lead to decreased productivity and increased frustration. When authentication barriers interrupt workflow too frequently, users develop workarounds that ultimately compromise the security these systems aim to protect.
 
 ## **Shifting the Paradigm: From Authentication to Authorization**
 
-A more effective approach lies in understanding the distinction between authentication (proving who you are) and authorization (verifying what you're permitted to do). By implementing thoughtful authentication strategies paired with granular authorization controls, organizations can create security systems that protect sensitive resources without hampering productivity.
+A more effective approach lies in understanding the distinction between authentication (proving who you are) and authorization (verifying what you're permitted to do). Organizations can create security systems that protect sensitive resources without hampering productivity by implementing thoughtful authentication strategies paired with granular authorization controls.
 
 The National Institute of Standards and Technology (NIST) Special Publication 800-63B provides a comprehensive framework for authentication through its Authenticator Assurance Levels (AALs), offering guidance that balances security with usability. Using this framework, this article presents four strategies to reduce fatigue while aligning with the Special Publication 800-63B 
 
@@ -24,9 +24,9 @@ NIST SP 800-63B defines three Authenticator Assurance Levels that provide increa
 
 * **AAL1**: Permits single-factor authentication using memorized secrets (passwords) or physical authenticators.  
 * **AAL2**: Requires multi-factor authentication with two different authentication factors.  
-* **AAL3**: Requires multi-factor authentication with hardware-based authenticator and verifier impersonation resistance.
+* **AAL3**: Requires multi-factor authentication with a hardware-based authenticator and verifier impersonation resistance.
 
-Each AAL establishes specific requirements not for the authenticators themselves, but for the authentication sessions, since combinations of authenticators used together can achieve higher assurance levels than individually.
+Each AAL establishes specific requirements not for the authenticators themselves, but for the authentication sessions, since combinations of authenticators used together can achieve higher assurance levels than individually (Grassi et al., 2017).
 
 ## **Aligning Authentication Strategies with NIST Guidelines**
 
@@ -80,7 +80,7 @@ If you have any questions or recommendations, feel free to email me at robert@fi
 
 ## **Sources for Further Research:**
 
-NIST Publications are arguably challenging to read. Having spent many years reviewing their publications, I recommend reading the table of contents and then picking one or two sections that interest you. Do not try to read the entire document in one sitting; it won’t benefit you. Instead, as you expand your cybersecurity knowledge, you will remember topics from the table of contents and will return to see what NIST has to say on the matter.  Here are NIST documents you might want to consider for a deeper understanding. 
+NIST Publications are arguably challenging to read. Having spent many years reviewing their publications, I recommend reading the table of contents and then picking one or two sections that interest you. Do not try to read the entire document in one sitting; it won’t benefit you. Instead, as you expand your cybersecurity knowledge, you will remember topics from the table of contents and return to see what NIST has to say.  Here are NIST documents you might want to consider for a deeper understanding. 
 
 1. NIST Special Publication 800-63B: "Digital Identity Guidelines: Authentication and Lifecycle Management" \- The current edition, along with the draft Revision 4 (available for public comment until October 2024\)
 
